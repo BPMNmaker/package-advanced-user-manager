@@ -22,6 +22,10 @@ class PackageServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../database/migrations' => database_path('migrations'),
         ], 'advanced-user-manager-migrations');
+        
+        $this->publishes([
+            __DIR__.'/../database/seeds' => database_path('seeds'),
+        ], 'advanced-user-manager-migrations');
 
         $this->publishes([
             __DIR__ . '/../public' => public_path('vendor/BPMNmaker/advanced-user-manager'),
