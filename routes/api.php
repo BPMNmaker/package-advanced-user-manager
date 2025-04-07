@@ -1,8 +1,8 @@
 <?php
 
-use ProcessMaker\Package\PackageSkeleton\Http\Controllers\PackageSkeletonController;
+use ProcessMaker\Package\AdvancedUserManager\Http\Controllers\AdvancedUserManagerController;
 
 Route::group(['middleware' => ['auth:api', 'bindings']], function () {
-    Route::get('admin/package-skeleton/fetch', [PackageSkeletonController::class, 'fetch'])->name('package.skeleton.fetch');
-    Route::apiResource('admin/package-skeleton', PackageSkeletonController::class);
+    Route::get('admin/advanced-user-manager/fetch', [AdvancedUserManagerController::class, 'fetch'])->name('package.skeleton.fetch');
+    Route::apiResource('admin/advanced-user-manager', AdvancedUserManagerController::class);
 });

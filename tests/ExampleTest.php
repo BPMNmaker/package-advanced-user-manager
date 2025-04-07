@@ -1,5 +1,5 @@
 <?php
-namespace Tests\PackageSkeleton;
+namespace Tests\AdvancedUserManager;
 
 use Tests\TestCase;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace ProcessMaker\Package\PackageSkeleton\Database\Factories;
+namespace ProcessMaker\Package\AdvancedUserManager\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use ProcessMaker\Package\PackageSkeleton\Enums\StatusEnum;
-use ProcessMaker\Package\PackageSkeleton\Models\Sample;
+use ProcessMaker\Package\AdvancedUserManager\Enums\StatusEnum;
+use ProcessMaker\Package\AdvancedUserManager\Models\Sample;
 
 class SampleModelFactory extends Factory
 {

@@ -1,19 +1,19 @@
 <?php
 
-namespace ProcessMaker\Package\PackageSkeleton\Http\Controllers;
+namespace ProcessMaker\Package\AdvancedUserManager\Http\Controllers;
 
 use Illuminate\Http\Request;
 use ProcessMaker\Http\Controllers\Controller;
 use ProcessMaker\Http\Resources\ApiCollection;
-use ProcessMaker\Package\PackageSkeleton\Models\Sample;
+use ProcessMaker\Package\AdvancedUserManager\Models\Sample;
 use RBAC;
 use URL;
 
-class PackageSkeletonController extends Controller
+class AdvancedUserManagerController extends Controller
 {
     public function index()
     {
-        return view('package-skeleton::index');
+        return view('advanced-user-manager::index');
     }
 
     public function fetch(Request $request)
